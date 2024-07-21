@@ -11,7 +11,7 @@ closeButton.addEventListener("click", () => {
   dialog.close();
 });
 
-class Books {
+class Book {
     constructor(title, author, pages, readStatus) {
         this.title = title;
         this.author = author;
